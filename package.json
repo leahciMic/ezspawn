@@ -26,5 +26,8 @@
     "bluebird": "^2.10.0",
     "cli-command-parser": "^1.0.2",
     "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "lodash.defer": "^3.1.0"
   }
 }
