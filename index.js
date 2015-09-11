@@ -2,6 +2,7 @@ var debug = require('debug')('ezspawn:debug');
 var warn = require('debug')('ezspawn:warn');
 var cliCommandParser = require('cli-command-parser');
 var bluebird = require('bluebird');
+var spawn = require('child_process').spawn;
 
 module.exports = function(cmd, waitForProcess, timeout) {
   debug('Execute: ' + cmd);
