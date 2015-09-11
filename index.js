@@ -54,7 +54,7 @@ module.exports = function(cmd, waitForProcess, timeout) {
 
     if (timeout > 0) {
       promise = promise.timeout(timeout)
-        .catch(function(function(e) {
+        .catch(function(e) {
           proc.kill();
         });
     }
