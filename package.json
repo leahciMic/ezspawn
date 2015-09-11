@@ -1,0 +1,30 @@
+{
+  "name": "ezspawn",
+  "version": "1.0.0",
+  "description": "Spawn a process with ease.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leahciMic/ezspawn.git"
+  },
+  "keywords": [
+    "spawn",
+    "child_process",
+    "process",
+    "exec"
+  ],
+  "author": "Michael Leaney <leahcimic@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leahciMic/ezspawn/issues"
+  },
+  "homepage": "https://github.com/leahciMic/ezspawn#readme",
+  "dependencies": {
+    "bluebird": "^2.10.0",
+    "cli-command-parser": "^1.0.2",
+    "debug": "^2.2.0"
+  }
+}
