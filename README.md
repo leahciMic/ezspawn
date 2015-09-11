@@ -1,4 +1,4 @@
-# ezspawn
+# ezspawn [![Build Status](https://travis-ci.org/leahciMic/ezspawn.svg?branch=master)](https://travis-ci.org/leahciMic/ezspawn)
 
 Spawn a process with ease.
 
