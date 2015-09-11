@@ -28,6 +28,7 @@
     "debug": "^2.2.0"
   },
   "devDependencies": {
+    "jasmine": "^2.3.2",
     "lodash.defer": "^3.1.0"
   }
 }
