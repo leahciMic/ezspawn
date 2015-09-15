@@ -1,6 +1,6 @@
 {
   "name": "ezspawn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Spawn a process with ease.",
   "main": "index.js",
   "scripts": {
