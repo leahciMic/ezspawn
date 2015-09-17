@@ -27,7 +27,7 @@ Runs `cmd`, and returns a promise with the results.
 ### `cmd`
 
 The command you wish to execute. It uses
-(cli-command-parser)[https://www.npmjs.com/package/cli-command-parser] to parse
+[cli-command-parser](https://www.npmjs.com/package/cli-command-parser) to parse
 the string into a suitable format for `child_process#spawn`.
 
 ### `waitForProcess`
