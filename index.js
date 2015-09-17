@@ -58,6 +58,7 @@ module.exports = function(cmd, waitForProcess, timeout) {
       promise = promise.timeout(timeout)
         .catch(function(e) {
           proc.kill();
+          debug(cmd + ' timed out after ' + timeout + 'ms');
           throw e;
         });
     }
