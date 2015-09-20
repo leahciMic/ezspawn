@@ -20,7 +20,11 @@ ezspawn('ls -lh').then(function(output) {
 
 ## API
 
-`ezspawn(cmd, waitForProcess=true, timeout=60000)`
+`ezspawn.spawn(cmd)`
+
+Spawn a process and return the child_process object.
+
+`ezspawn(cmd, timeout=60000)`
 
 Runs `cmd`, and returns a promise with the results.
 
